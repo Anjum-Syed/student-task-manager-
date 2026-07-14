@@ -1,0 +1,38 @@
+### Test Backend
+GET http://localhost:5000/
+
+###
+
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Complete DBMS Assignment",
+  "description": "Finish before Friday",
+  "priority": "High",
+  "status": "Pending"
+}
+
+###
+
+GET http://localhost:5000/api/tasks
+
+###
+
+PUT http://localhost:5000/api/tasks/6a50f02decc99c4cb68fd2c5
+Content-Type: application/json
+
+{
+  "title": "Complete DBMS Assignment",
+  "description": "Finish before Friday",
+  "priority": "Medium",
+  "status": "Completed"
+}
+
+###
+
+DELETE http://localhost:5000/api/tasks/6a50f02decc99c4cb68fd2c5
+
+###
+
+GET http://localhost:5000/api/tasks

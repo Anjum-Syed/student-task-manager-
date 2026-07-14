@@ -1,0 +1,1 @@
+Open frontend/index.html in the browser or serve the project root with a static server so this directory is the entry point.

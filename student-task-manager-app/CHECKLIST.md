@@ -1,0 +1,24 @@
+# Internship Requirement Checklist
+
+- [x] User Registration API
+- [x] User Login API
+- [x] Password hashing using bcrypt
+- [x] JWT-based authentication
+- [x] Protected task APIs
+- [x] User model with name, email, and password
+- [x] Task model with user_id, title, description, status, priority, and due_date
+- [x] Add Task API
+- [x] Get Tasks API
+- [x] Update Task API
+- [x] Delete Task API
+- [x] Proper error handling and validation
+- [x] MongoDB Atlas integration
+- [x] Frontend integrated with backend
+- [x] Registration page
+- [x] Login page
+- [x] Student Task Manager page after successful login
+- [x] Add, View, Update, Delete, and Mark Complete UI
+- [x] Responsive and modern UI
+- [x] Logout functionality
+- [x] CRUD operations persist in MongoDB after refresh
+- [x] Bugs preventing the project from running correctly fixed

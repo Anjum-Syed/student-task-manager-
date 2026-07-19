@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "_id": "6a5478ba6c7ffcbf7b4d6e3b",
+      "name": "Test User",
+      "email": "east@gmail.com",
+      "password": "dummy_password_hash"
+    }
+  ],
+  "tasks": []
+}
